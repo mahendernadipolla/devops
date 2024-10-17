@@ -15,6 +15,8 @@ public class mahiclass {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://automationtalks.com/");
+		String pagesource=driver.getWindowHandle();
+		System.out.println("pagesource" + pagesource);
 		driver.close();
 		
 		
