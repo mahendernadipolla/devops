@@ -16,7 +16,7 @@ public class mahiclass {
 		driver.manage().window().maximize();
 		driver.get("https://automationtalks.com/");
 		String pagesource=driver.getCurrentUrl();
-		System.out.println("pagesource" + pagesource);
+		System.out.println("current URL is ---->" + pagesource);
 		driver.close();
 		
 		
